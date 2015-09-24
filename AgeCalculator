@@ -1,0 +1,12 @@
+#!/usr/bin/ruby
+
+puts "What is your name?"
+name = gets
+name = name.chomp
+puts "Hello " + name + ", How are you?"
+
+puts "So #{name}, how old are you?"
+age = gets
+age = age.chomp
+year = 2015 - age.to_i
+puts "Got it #{name}, you are #{age} years old and were born in #{year}"
